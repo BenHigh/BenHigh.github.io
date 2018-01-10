@@ -36,6 +36,7 @@ a{
 }
 
 .profCont .img-responsive{
+	margin: 0 auto;
 	padding: 1.5%;
 }
 
@@ -59,11 +60,6 @@ a{
 	margin: 25px;
 	border-radius: 5px;
 	border: 1px solid #666;
-}
-
-.img-responsive{
-	margin: 0 auto;
-	margin: 5px;
 }
 
 .wrapper{
