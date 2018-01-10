@@ -14,66 +14,53 @@ a{
 	color: #aaa;
 }
 
-
-.navbar{
-	margin-bottom: 0;
-}
-
-.navbar-default .navbar-brand{
-	font-size: 27.7px;
-	color: #666;
-}
-
-.navbar-default .navbar-nav li a{
-	font-size: 22px;
-	color: #666;
-}
-
 #navi{
-	background: url("../images/small_steps.png");
-	background-repeat: repeat;
+	background: transparent;
+}
+
+#title h1{
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 56px;
+	text-align: center;
+	color: black;
+	padding: 20px;
 }
 
 #leftContain{
 	background: #eee;
-	padding: 20px;
-	margin: 15px 1.25%;
-	min-width: 65%;
+	margin: 25px;
+	padding: 30px;
+	padding-top: 15px;
 	border-radius: 5px;
 	border: 1px solid #666;
-	opacity: .9;
 }
 
 .profCont .img-responsive{
-	padding: 15px;
+	padding: 1.5%;
 }
 
+#rightContain .img-responsive{
+	margin: 0 auto;
+}
 
 #rightContain{
 	background: #eee;
-	padding: 20px;
-	margin: 15px 1.25%;
-	width: 30%;
+	margin: 25px;
+	padding: 30px;
+	padding-top: 15px;
 	border-radius: 5px;
 	border: 1px solid #666;
-	opacity: .9;
 }
 
 #portContain{
 	background: #eee;
-	padding: 20px;
-	margin: 15px 1.25%;
-	min-width: 97.5%;
+	padding: 30px;
+	margin: 25px;
 	border-radius: 5px;
 	border: 1px solid #666;
-	opacity: .9;
 }
 
-.img-responsive{
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-bottom: 15px;
-}
+
 
 .wrapper{
 	min-height: 95%;
@@ -82,15 +69,24 @@ a{
 }
 
 #mainContain{
-	background: url(../images/cosmicweb.png) no-repeat center top #4aaaa5;
+	background: url(../images/2k.jpg);
+	background-size: 100%;
 	border-radius: 7px;
-	padding: 12px;
+	padding: 4%;
+	padding-bottom: 2%;
 	border: 1px solid #666;
 	margin-bottom: 25px;
 }
 
+#row1{
+	margin-bottom: 2%;
+}
+
+#row2{
+	margin-top: 2%;
+}
+
 .row{
-	margin: 0;
 	text-align: center;
 }
 
@@ -111,8 +107,27 @@ footer{
     visibility: hidden;
 }
 
-@media screen and (max-width: 991px){
+@media only screen and (min-width : 992px) {
 	#rightContain{
-		width: 97.5%;
+		margin-left: 4%;
+	}
+
+	#leftContain{
+		margin-right: 4%;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+	#leftContain{
+		margin-bottom: 4%;
+	}
+	#rightContain{
+		margin-top: 4%;
+	}
+	#row1{
+		margin-bottom: 0;
+	}
+	#row2{
+		margin-top: 0;
 	}
 }
