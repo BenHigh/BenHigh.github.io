@@ -55,12 +55,16 @@ a{
 #portContain{
 	background: #eee;
 	padding: 30px;
+	padding-top: 15px;
 	margin: 25px;
 	border-radius: 5px;
 	border: 1px solid #666;
 }
 
-
+.img-responsive{
+	margin: 0 auto;
+	margin: 5px;
+}
 
 .wrapper{
 	min-height: 95%;
